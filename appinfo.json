@@ -1,0 +1,17 @@
+{
+  "uuid": "35a16c4f-a13a-4339-a4ad-11f2dc92d866",
+  "shortName": "Everything_OK",
+  "longName": "Everything_OK",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
