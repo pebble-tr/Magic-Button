@@ -1,5 +1,5 @@
 {
-  "uuid": "35a16c4f-a13a-4339-a4ad-11f2dc92d866",
+  "uuid": "e841f3a8-dec4-40d0-b61f-5512310a7616",
   "shortName": "Magic Button",
   "longName": "Magic Button",
   "companyName": "MakeAwesomeHappen",
@@ -12,6 +12,19 @@
     "dummy": 0
   },
   "resources": {
-    "media": []
+    "media": [
+        {
+        "type": "png",
+        "name": "OK",
+        "file": "images/ok.png"
+      },
+      {
+	"menuIcon": true,
+	"type": "png",
+	"name": "MENU_ICON",
+	"file": "images/menu_icon.png"
+      }
+    ]
   }
 }
+
