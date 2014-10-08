@@ -45,7 +45,7 @@ static void click_config_provider(void *context) {
   //Register progression
   //timer = app_timer_register(DELAY, (AppTimerCallback)timer_callback, NULL);
 
-  window_single_click_subscribe(BUTTON_ID_UP, timer_callback);
+  window_single_click_subscribe(BUTTON_ID_SELECT, timer_callback);
 }
 
 static void window_load(Window *window) {
