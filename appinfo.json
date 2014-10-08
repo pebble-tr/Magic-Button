@@ -4,7 +4,7 @@
   "longName": "Magic Button",
   "companyName": "MakeAwesomeHappen",
   "versionCode": 1,
-  "versionLabel": "1.1",
+  "versionLabel": "1.2",
   "watchapp": {
     "watchface": false
   },
