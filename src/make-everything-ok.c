@@ -16,18 +16,13 @@ static void timer_callback(ClickRecognizerRef recognizer, void *context){
   if(new_progress > 100){
     Layer *window_layer = window_get_root_layer(window);
 
-    //text_layer = text_layer_create(GRect(5,90,140,15));
-    //text_layer2 = text_layer_create(GRect(150,100,150,25));
-    //text_layer_set_text(text_layer, "Everything should be");
-    //text_layer_set_text(text_layer2,"     OK now :)      ");
-   GRect bounds = layer_get_bounds(window_layer);
-   text_layer = text_layer_create((GRect) {.origin = {0,95}, .size={bounds.size.w,20}});
-   text_layer_set_text(text_layer, "Everything should be");
-   text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);
-   text_layer2 = text_layer_create((GRect) { .origin = { 0, 110 }, .size = { bounds.size.w, 20 } });
-   text_layer_set_text(text_layer2, "OK Now :)");
-   text_layer_set_text_alignment(text_layer2, GTextAlignmentCenter);
-
+    GRect bounds = layer_get_bounds(window_layer);
+    text_layer = text_layer_create((GRect) {.origin = {0,95}, .size={bounds.size.w,20}});
+    text_layer_set_text(text_layer, "Everything should be");
+    text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);
+    text_layer2 = text_layer_create((GRect) { .origin = { 0, 110 }, .size = { bounds.size.w, 20 } });
+    text_layer_set_text(text_layer2, "OK Now :)");
+    text_layer_set_text_alignment(text_layer2, GTextAlignmentCenter);
 
     layer_add_child(window_layer, text_layer_get_layer(text_layer));
     layer_add_child(window_layer, text_layer_get_layer(text_layer2));
