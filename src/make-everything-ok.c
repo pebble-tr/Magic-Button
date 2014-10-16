@@ -13,7 +13,7 @@ BitmapLayer *past_layer;
 static void timer_callback(ClickRecognizerRef recognizer, void *context){
   //Add and/or wrap
   int new_progress = progressbar_layer_get_progress(pb_layer) + 1;
-  if(new_progress > 100){
+  if(new_progress == 100){
     Layer *window_layer = window_get_root_layer(window);
 
     GRect bounds = layer_get_bounds(window_layer);
