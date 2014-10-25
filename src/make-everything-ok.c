@@ -48,7 +48,7 @@ static void window_load(Window *window) {
   text_layer = text_layer_create(GRect(0, 100, 144, 168));
   text_layer2 = text_layer_create(GRect(0, 110, 144, 168));
   past_bitmap = gbitmap_create_with_resource(RESOURCE_ID_OK);
-  past_layer = bitmap_layer_create(GRect(0,3,130,40));
+  past_layer = bitmap_layer_create(GRect(1,7,140,40));
 
   bitmap_layer_set_bitmap(past_layer, past_bitmap);
   //layer_add_child(window_get_root_layer(window), (Layer*) text_layer);
